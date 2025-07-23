@@ -1,0 +1,20 @@
+Steps:
+1)Create repo (via GitHub UI or CLI).
+
+2)Use terminal to make tree:
+bash
+mkdir -p Cybersecurity_Internship/Month_1/Orientation
+touch Cybersecurity_Internship/Month_1/Orientation/{Internship_Guidelines.pdf,Code_of_Conduct.pdf}
+
+3)Generate tree (in Linux):
+bash
+sudo apt install tree
+tree Cybersecurity_Internship/
+
+4)Push to GitHub:
+bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <your-repo-url>
+git push -u origin main
