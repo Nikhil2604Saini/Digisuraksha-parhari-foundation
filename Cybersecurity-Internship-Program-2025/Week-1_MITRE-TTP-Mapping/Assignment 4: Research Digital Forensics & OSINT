@@ -1,0 +1,16 @@
+Digital Forensics:
+Collecting, preserving, and analyzing digital evidence.
+
+Key phases: Identification → Preservation → Analysis → Reporting
+
+Tools:
+Autopsy (GUI Forensics)
+FTK Imager, Volatility (Memory analysis)
+Sleuth Kit, ExifTool
+
+🔍 OSINT (Open Source Intelligence):
+Finding info from public sources (social media, web, databases).
+Tools:
+Maltego, theHarvester, SpiderFoot, Recon-ng
+Google Dorking, Shodan, Censys
+
