@@ -1,0 +1,84 @@
+File & Directory Management
+Command	                                          Description
+ls	                                              List files and directories
+cd	                                              Change directory
+pwd	                                              Show current directory
+mkdir	                                            Create a new directory
+rmdir	                                            Remove an empty directory
+touch	                                            Create an empty file
+cp	                                              Copy files or directories
+mv	                                              Move or rename files
+rm	                                              Delete files or directories
+tree	                                            Display directory structure (install with sudo apt install tree)
+
+ File Viewing & Editing
+Command	                                          Description
+cat                                             	View file content
+more	                                            View file content page by page
+less	                                            Scroll through file content (backward too)
+head	                                            View first 10 lines of a file
+tail	                                            View last 10 lines of a file
+nano                                             	Simple file editor
+vim	                                              Advanced file editor
+wc	                                              Word, line, character count
+file	                                            Get file type
+stat	                                            Show file details like timestamps, permissions
+
+ Permissions & Ownership
+Command	                                          Description
+chmod                                           	Change file permissions
+chown                                           	Change file ownership
+chgrp	                                            Change file group
+umask                                           	Default permission settings
+ls -l	                                            View file permissions
+
+ Searching & Finding
+Command	                                          Description
+find	                                            Search files/directories
+locate	                                          Fast file search (index-based)
+grep	                                            Search within file content
+which	                                            Show path of a command
+whereis	                                          Locate binary/source/man pages
+
+ Package Management (Debian-based like Kali/Ubuntu)
+Command	                                          Description
+apt update	                                      Update package lists
+apt upgrade	                                      Upgrade installed packages
+apt install <pkg>	                                Install a package
+apt remove <pkg>	                                Remove a package
+dpkg -i <pkg.deb>	                                Install a .deb package manually
+
+ System Monitoring & Info
+Command                                          	Description
+top	                                              Real-time process viewer
+htop	                                            Enhanced top (install with sudo apt install htop)
+ps aux	                                          List all processes
+df -h	                                            Disk space usage
+du -sh	                                          Directory size
+free -h	                                          RAM usage
+uptime	                                          System running time
+uname -a	                                        Kernel and OS details
+hostname	                                        Show system hostname
+whoami	                                          Current user
+id	                                              User ID and group info
+
+Networking
+Command	                                          Description
+ping	                                            Test network connectivity
+ifconfig or ip a	                                Network interfaces info
+netstat -tuln	                                    List open ports
+nmap	                                            Scan open ports (install with sudo apt install nmap)
+wget <url>	                                      Download file from web
+curl <url>	                                      Transfer data from/to server
+ssh user@host	                                    SSH remote login
+
+ Miscellaneous
+Command	                                          Description
+history	                                          Show command history
+clear	                                            Clear terminal screen
+alias	                                            Create command shortcut
+man <cmd>	                                        Show manual for command
+echo	                                            Print a message
+sleep	                                            Pause execution
+exit	                                            Exit the terminal/session
+
